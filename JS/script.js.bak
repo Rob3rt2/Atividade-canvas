@@ -1,5 +1,10 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
+<<<<<<< HEAD:JS/script.js.bak
 ctx.fillStyle = 'green';
 ctx.fillRect =(20,20,170,120);
+=======
+ctx.fillstyle = 'green';
+ctx.fillRect =(10,10,150,100);
+>>>>>>> 28b25015d0e253921ead06fd22d4b78ffab6c8f5:script/script.js
