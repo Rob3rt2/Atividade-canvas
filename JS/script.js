@@ -16,29 +16,22 @@ ctx.lineTo (120,100);
 ctx.fill();
 
 ctx1.fillStyle = 'red';
-ctx1.fillRect (20,20,170,120);
-ctx1.strokeRect (40, 50, 130, 60);
+ctx1.fillRect (60,20,170,120);
+ctx1.strokeRect (80, 50, 130, 60);
 
 ctx2.beginPath();
-ctx2.arc(100,100,50,0, Math.PI*2,true);
+ctx2.arc(150,80,70,0, Math.PI*2,true);
 ctx2.moveTo(100,200);
-ctx2.stroke();
+ctx2.fillStyle ='red';
+ctx2.fill();
 
-
-ctx3.beginPath();
-ctx3.moveTo(20, 20);
-ctx3.lineTo (120,20);
-ctx3.lineTo (20, 120);
-ctx3.fill();
 
 
 ctx3.beginPath();
-ctx3.moveTo(140, 140);
-ctx3.lineTo(140, 40);
-ctx3.lineTo(40,140);
-ctx3.closePath();
+ctx3.moveTo (400,50);
+ctx3.lineTo (20,50);
+ctx3.lineTo (170, 70);
 ctx3.stroke();
-
 
 
 
