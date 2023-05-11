@@ -2,8 +2,9 @@
 Criada a estrutura HTML basica, com  titulo do projeto data de criação e resolução do monitor
 Linkando  JS e CSS
 Criação dos canvas com ids diferentes organizados em <div> para personalização no css, uma div para cada canvas todas com um id diferente.
+  
 
-Programado no JS a forma do triangulo dentro da constante canvas que recebeu o elemento do id canvas,
+Programado no JS a forma do triangulo dentro da constante canvas que recebeu o elemento do id canvas
 Triangulo programado com moveTo(x,y), que move a caneta (pen) para as cordenadas de x e y
 E o lineTo(x,y) que cria uma linha da cordenada (x,y)
 E tambem o fill() que cria uma forma solida atraves do preenchimento
@@ -20,6 +21,7 @@ utilizado stroke(), ele desenha uma borda
 Criado a curva com novo canvas
 utilizado moveTo() e stroke()
 utilizado quadraticCurveTo(cp1x,cp1y,x,y), cria uma curva de bézier quadratica da posição indicada por (x,y), usando o controle de pontos guiados por(cp1x,cp1y)
+  
 
 apos a programação das formas todas foram alinhadas no centro da pagina no CSS dentro do Body{} com text-aling:center; e alterada a cor de fundo da pagina com background-color:;
   para cada div foi criada uma caixa colorida onde ficariam as formas elas foram criadas com 
@@ -29,6 +31,7 @@ apos a programação das formas todas foram alinhadas no centro da pagina no CSS
   border-radius:px; define como serão as bordas arredondas apartir dos pixeis(px) especificados
   isto foi repitido em toda div que há no programa 
   toda div foi criada com cores diferentes mas com o mesmo tamanho
+  
  
   adicionada imagem no HTML com <img>, tambem criado um id para a imagem
  
