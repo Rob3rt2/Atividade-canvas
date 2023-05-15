@@ -13,6 +13,9 @@ const ctx3 = canvas3.getContext('2d');
 const canvas4 = document.getElementById('canvas4');
 const ctx4 = canvas4.getContext('2d');
 
+
+
+
 ctx.moveTo (10, 100);
 ctx.lineTo (65,10);
 ctx.lineTo (120,100);
@@ -43,4 +46,24 @@ ctx4.quadraticCurveTo(300,120,150,100);
 ctx4.quadraticCurveTo(200,10,20,40);
 ctx4.quadraticCurveTo(100,120,170,69);
 ctx4.stroke();
+
+draw();
+
+function draw() {
+	var ctx5 = document.getElementById('canvas5').getContext('2d');
+	var img = new Image();
+	img.onload = function(){
+		for (var i = 0; i< 4; i++){
+			for (var j = 0; j<3; j++){
+				ctx5.drawImage(img,j*100, i *150, 200, 200);
+			}
+		}
+	};
+	img.src = 'IMG/imagem.png';
+}
+	
+
+
+
+
 

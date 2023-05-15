@@ -18,9 +18,13 @@
 <br>
 <div id = "reta"><canvas id = "canvas3"></canvas></div>
 <br>
-<div id = "curva"><canvas id = "canvas4"></canvas></div
+<div id = "curva"><canvas id = "canvas4"></canvas></div>
 <br>
-<img src ="img/imagem. " />
+<<<<<<< HEAD
+<img id ="imagem" src ="img/imagem. " />
+=======
+<img id = "imag" src ="IMG/imagem.png"/>
+>>>>>>> bc08ca98cdae37d7808775d1a9c252e4b673aa52
 <script src = "JS/script.js"></script>
 </body>
 </html>
