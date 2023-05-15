@@ -1,7 +1,42 @@
 body{
 	text-align:center;
+	background-color:	#FA8072;
 	
 }
+h1{
+	font-family:courier;
+	font-size:40px;
+	color:	#FFFFF0;
+}
 #canvas{
-	margin-left:250px;
+	margin-left:150px;
+}
+#tri1{
+	background-color:#6A5ACD;
+	padding-top:6px;
+	border:2px solid black;
+	border-radius:20px;
+	
+}
+#quadra1{
+	background-color:#4169E1;
+	padding-top:4px;
+	border:2px solid black;
+	border-radius:20px
+}
+#bola1{
+	background-color:	#006400;
+	padding-top:4px;
+	border:2px solid black;
+	border-radius:20px
+}
+
+#reta{
+	background-color:#8B4513;
+	padding-top:4px;
+	border:2px solid black;
+	border-radius:20px
+}
+#curva{
+	background-color:	#8B0000;
 }
