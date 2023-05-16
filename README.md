@@ -33,7 +33,6 @@ apos a programação das formas todas foram alinhadas no centro da pagina no CSS
   toda div foi criada com cores diferentes mas com o mesmo tamanho
   
  
-  adicionada imagem no HTML com <img>, tambem criado um id para a imagem
+  adicionada imagem no HTML com <img> pelo JavaScript, tambem criado um id para a imagem
  
-  alterações da imagem no CSS
- pego o id img{}, definido width:px;, largura da imagem, height:px;,altura da imagem, border:px black-solid;, borda, border-radius:px;, arredondamento da borda.
+ 
