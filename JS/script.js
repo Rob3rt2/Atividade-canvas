@@ -41,10 +41,11 @@ ctx3.stroke();
 
 
 ctx4.beginPath();
-ctx4.moveTo(170,69);
-ctx4.quadraticCurveTo(300,120,150,100);
-ctx4.quadraticCurveTo(200,10,20,40);
-ctx4.quadraticCurveTo(100,120,170,69);
+ctx4.moveTo(100,69);
+ctx4.quadraticCurveTo(30,20,100,0);
+ctx4.quadraticCurveTo(40,10,0,30);
+ctx4.quadraticCurveTo(10,120,100,69);
+ctx4.quadraticCurveTo(300,40,99,00);
 ctx4.stroke();
 
 draw();
@@ -53,9 +54,9 @@ function draw() {
 	var ctx5 = document.getElementById('canvas5').getContext('2d');
 	var img = new Image();
 	img.onload = function(){
-		for (var i = 0; i< 4; i++){
-			for (var j = 0; j<3; j++){
-				ctx5.drawImage(img,j*100, i *150, 200, 200);
+		for (var i = 0; i< 1; i++){
+			for (var j = 0; j<1; j++){
+				ctx5.drawImage(img,j*700, i *700,300 , 200);
 			}
 		}
 	};
